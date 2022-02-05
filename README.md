@@ -124,6 +124,3 @@ Inside `config.php` do the following:
 
 ### Upload your app to your server
 The final step here is to upload all of the files for the app to your server. Once that is done your app should be ready to be installed on a development store. This is found under `More actions` when viewing your app inside of Shopify Partners.
-
-## Build out your app your way
-`index.php` is the home of the actual app. If you are wanting to serve the functionality of your app through some means other than PHP (ie: Node.js, React, etc) You simply need to change the `$redirect_uri` to the location of your app as well as set this location as whitelisted under `Allowed redirection URL(s)` inside your app settings in your Shopify Partners account. Keep in mind that how ever you host it there is some added security in the `index.php` file that will need to be handled appropriately.
