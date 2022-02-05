@@ -1,5 +1,5 @@
-# php-shopify-app-skeleton
-A bare-bones Shopify app written in plain PHP with no framework
+# klevu_assignment
+A Shopify app written in plain PHP with no framework
 
 <p>This is a very basic stripped down Shopify app that was designed to be as plug and play as possible. It does require a database setup with one table in it and uses MySQL to work with the database. The table structures are as follows:</p>
 
